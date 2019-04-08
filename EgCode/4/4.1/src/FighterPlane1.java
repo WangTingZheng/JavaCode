@@ -6,5 +6,4 @@ public class FighterPlane1 {
 		System.out.println(name);
 		System.out.println(this.name);
 	}
-
 }

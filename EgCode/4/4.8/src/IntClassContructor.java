@@ -1,4 +1,3 @@
-
 class IntClass{
 	int value;
 	public IntClass (int val) {
