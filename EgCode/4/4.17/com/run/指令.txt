@@ -1,0 +1,3 @@
+javac -d .\deliver com\resource\FighterPlane.java
+javac -d .\deliver -classpath .\deliver com\run\RunPlane.java
+java -classpath .\deliver com.run.RunPlane
