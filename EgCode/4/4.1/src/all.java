@@ -3,9 +3,9 @@
  */
 public class all {
 	public static void main(String args[]) {      
-		FighterPlane FighterPlane= new FighterPlane();  
+		FighterPlane FighterPlane= new FighterPlane();  //new一个对象，用FighterPlane这个遥控器指挥它
 		FighterPlane1 FighterPlane1= new FighterPlane1();
-		FighterPlane.fire();
+		FighterPlane.fire();  //通过FighterPlane来访问
 		FighterPlane1.init("su35");
 	}
 }

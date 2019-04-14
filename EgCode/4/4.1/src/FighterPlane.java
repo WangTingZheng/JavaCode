@@ -14,6 +14,6 @@ class FighterPlane {   //构造一个类，来描述战斗机
 		}
 	}
 	public void main(String []args) {   
-		fire();
+		fire();  //直接在本类中引用
 	}
 }

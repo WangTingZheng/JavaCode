@@ -1,4 +1,5 @@
 class IntClass{
+	//该类没有构造方法，系统将自动新建一个构造方法
 	int value;
 }
 public class RunClassDefault {
