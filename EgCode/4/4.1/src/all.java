@@ -1,11 +1,1 @@
-/*
- * 调用途径二：在其它类中引用一个对象，在用这个对象来调用
- */
-public class all {
-	public static void main(String args[]) {      
-		FighterPlane FighterPlane= new FighterPlane();  //new一个对象，用FighterPlane这个遥控器指挥它
-		FighterPlane1 FighterPlane1= new FighterPlane1();
-		FighterPlane.fire();  //通过FighterPlane来访问
-		FighterPlane1.init("su35");
-	}
-}
+饧猕犮伎慵裤伎慵裤伎慵裤伎慵裤伎慵裤伎慵裤伎慵裤伎慵裤伎慵裤伎慵裤伎慵裤伎慵裤紛鈥紛鐏垫壃妤ｂ仯姹＄嵆鈦℃爆鈦秽▔鐏垫壃妤ｂ伋鐟＄懇鎸犵櫙妤も伃鎱╂辅鍗寸墿婀р仭鐗х崨宕┾伝鈥犫�犫�犩▔啷嗘ェ妗存暡鍋叜鏀犱櫓鏉ㄧ懃鐗愭薄婀ャ礌婀ョ湢錂╂潹鐟ョ墣姹℃攻鉅┿瑺鈥疆鏁枫伎慵裤伎慵裤絾妤ф〈鏁插伂鎱斂慵裤伎慵裤伎慵裤伎啜夃妤ф〈鏁插伂鎱敱鈦嗘ェ妗存暡鍋叜鏀便礌婀ョ湢錂╂潹鐟ョ墣姹℃攻銊ㄢせ啜夃妤ф〈鏁插伂鎱敭鏅╃墺鉅┿瑺鈥伎慵夸櫓鏉ㄧ懃鐗愭薄婀ャ伎慵裤伎啜夃妤ф〈鏁插伂鎱敱夤╂供鐞ㄢ壋鐢炽敘猡秽▔绱婏拷
